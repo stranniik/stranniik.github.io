@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(sectionOne.css);
+@import url(sectionTwo.css);
+@import url(sectionThrue.css);
+@import url(sectionFour.css);
+@import url(sectionFive.css);
+@import url(footer.css);
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.wrapper {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}

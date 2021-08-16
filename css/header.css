@@ -1,0 +1,171 @@
+.header {
+  height: 100vh;
+}
+.navigation {
+  background-color: rgb(255, 255, 255);
+  padding: 30px 0;
+}
+.navigation .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Логотип*/
+.logotype {
+  display: flex;
+}
+.logoText {
+  margin-left: 10px;
+  font: normal 700 31px/50px "Nunito";
+  color: #6d6e70;
+  text-align: center;
+  text-transform: uppercase;
+}
+.logoFigure {
+  display: flex;
+  align-items: baseline;
+}
+.figureOne {
+  width: 7px;
+  height: 7px;
+  border-radius: 3px;
+  background-color: #8fc63d;
+}
+.figureTwo {
+  width: 7px;
+  height: 20px;
+  margin-top: 1px;
+  border-radius: 3px;
+  background-color: #8fc63d;
+}
+.figureThrue {
+  width: 7px;
+  height: 36px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background-color: #8fc63d;
+}
+.figureFour {
+  width: 7px;
+  height: 29px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background-color: #8fc63d;
+}
+/*Навигационные кнопки*/
+.navButton a {
+  margin-right: 30px;
+  font: normal 600 13px/0 "Open Sans";
+  color: #666666;
+  text-align: center;
+  text-transform: uppercase;
+}
+.navButton a:last-child {
+  margin-right: 0;
+}
+.navButton a:hover {
+  color: #a2c03f;
+}
+/*Кнопка регистрации*/
+.loginButton {
+  width: 100px;
+  height: 37px;
+  border-radius: 18px;
+  background-color: #add136;
+  text-align: center;
+}
+.loginButton:hover {
+  background-color: #a2c03f;
+}
+.loginText {
+  font: normal 600 13px/37px "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*Баннер*/
+.banner {
+  width: 100vw;
+  height: calc(100vh - 110px);
+  background: url(../images/Banner.png) no-repeat;
+  background-size: cover;
+}
+.blackout {
+  width: 100vw;
+  height: calc(100vh - 110px);
+  background-color: #add136;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 1;
+}
+.bannerSlider {
+  height: calc(100vh - 110px);
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.bannerLine {
+  display: flex;
+  position: absolute;
+  transition-duration: 0.7s;
+  transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.bannerText {
+  padding-top: 254px;
+  color: #ffffff;
+  text-align: center;
+}
+.bannerText h1 {
+  font: normal 600 49px/77px "Open Sans";
+}
+.bannerText p {
+  font: normal 400 39px/77px "Open Sans";
+}
+.bannerButton {
+  width: 254px;
+  height: 73px;
+  margin: 58px 0 98px 50%;
+  border-radius: 10px;
+  background-color: #99c50a;
+  box-shadow: 2px 3.464px 1px rgb(109, 104, 104);
+  font: normal 600 19px/77px "Open Sans";
+  color: #ffffff;
+  text-align: center;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.bannerButton:hover {
+  margin: 59px 0 97px 50.1%;
+  box-shadow: 1px 2.464px 1px rgb(109, 104, 104);
+  background-color: #92b422;
+  transform: translateX(-50.1%);
+  -webkit-transform: translateX(-50.1%);
+  -moz-transform: translateX(-50.1%);
+  -ms-transform: translateX(-50.1%);
+  -o-transform: translateX(-50.1%);
+}
+.sliderButtons {
+  position: absolute;
+  width: 58px;
+  right: 140px;
+  bottom: 48px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+.next {
+  background-image: url(../images/next.png);
+  background-color: transparent;
+  width: 13px;
+  height: 21px;
+  cursor: pointer;
+}
+.prev {
+  background-image: url(../images/prev.png);
+  background-color: transparent;
+  width: 13px;
+  height: 21px;
+  cursor: pointer;
+}

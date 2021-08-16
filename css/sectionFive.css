@@ -1,0 +1,76 @@
+.sectionFive {
+  position: relative;
+}
+.backgroundSectFive {
+  position: absolute;
+  z-index: 1;
+  top: -200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../images/bgSectFive.png) no-repeat;
+  background-size: cover;
+}
+.sectionFive .wrapper {
+  position: relative;
+  z-index: 10;
+}
+.headerSectFive h2{
+  margin-bottom: 42px;
+  font: normal 600 39px/39px "Open Sans";
+  color: #9ec02d;
+  text-align: center;
+}
+.headerSectFive p {
+  margin-bottom: 97px;
+  font: normal 400 19px/29px "OpenSans";
+  color: #949494;
+  text-align: center;
+}
+.contentSectFive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.commentBlock {
+  max-width: 397px;
+  margin-bottom: 155px;
+  padding: 27px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+}
+.commentBlock::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 32px solid #ffffff;
+  border-left: 32px solid transparent;
+  border-bottom: 32px solid transparent;
+  position: absolute;
+  bottom: -64px;
+  left: 82px;
+}
+.commentBlock h2 {
+  margin-bottom: 23px;
+  font: normal 600 21px/21px "Open Sans";
+  color: #9ec02d;
+  text-align: center;
+}
+.commentBlock p {
+  font: normal 400 13px/23px "Open Sans";
+  color: #848484;
+  text-align: center;
+}
+.blockAvatar {
+  position: absolute;
+  bottom: -110px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+}
+.blockAvatar span {
+  margin-left: 19px;
+  font: normal 400 15px/15px "Open Sans";
+  color: #494949;
+}

@@ -1,0 +1,156 @@
+.sectionFour {
+  margin-bottom: 80px;
+}
+.headerSectFour {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerSectFour h2 {
+  margin-bottom: 26px;
+  font: normal 600 29px/29px 'Open Sans';
+  color: #515151;
+}
+.headerSectFour p {
+  margin-bottom: 65px;
+  font: normal 400 17px/27px 'Open Sans';
+  color: #8f8f8f;
+}
+.btnSectFour {
+  width: 181px;
+  height: 50px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  border: 1px solid #515151;
+  font: normal 600 15px/15px 'Open Sans';
+  color: #515151;
+  text-align: center;
+}
+.btnSectFour:hover {
+  border: 1px solid #26a6d1;
+  color: #26a6d1;
+}
+.contentSectFour {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.cardSectFour {
+  flex-basis: 30%;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0,0,0,0.14);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgSectFour {
+  width: 100%;
+  height: 225px;
+  margin-bottom: 27px;
+  position: relative;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #add136;
+  border-right: 100px solid transparent;
+  position: absolute;
+  top: 0;
+  
+}
+.triangle span {
+  font: normal 400 16px/16px "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  top: -72px;
+  left: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.rectangle {
+  width: 139px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #26a6d1;
+  font: normal 400 16px/35px "Open Sans";
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.textSectFour h2 {
+  margin-bottom: 17px;
+  font: normal 700 17px/17px "Open Sans";
+  color: #484848;
+}
+.textSectFour p {
+  width: 257px;
+  height: 80px;
+  font: normal 400 13px/23px "Open Sans";
+  color: #484848;
+}
+.barSectFour {
+  width: 248px;
+  height: 14px;
+  margin: 60px 0 20px 0;
+  border-radius: 7px;
+  background-color: #e3e3e3;
+}
+#lineBarOne {
+  width: 38px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #add136;
+}
+#lineBarTwo {
+  width: 168px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #add136;
+}
+#lineBarThrue {
+  width: 38px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #add136;
+}
+.textBar {
+  margin-bottom: 17px;
+  font: normal 600 13px/13px "Open Sans";
+  color: #8d8d8d;
+}
+.textBar span:nth-child(1) {
+  margin-right: 108px;
+}
+.lineSectFour {
+  width: 252px;
+  height: 1px;
+  margin-bottom: 24px;
+  background-color: #948686;
+}
+.linkDetails {
+  margin: 0 35px 25px 0;
+  font: normal 600 15px/15px "Open Sans";
+  color: #484848;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+.linkDetails div {
+  margin: 3px;
+  display: inline-block;
+  width: 0px;
+	height: 0px;
+	border-top: 8px solid transparent;
+	border-left: 13px solid rgb(116, 228, 12);
+	border-bottom: 8px solid transparent;
+}

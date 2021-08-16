@@ -1,0 +1,66 @@
+.sectionThrue {
+  margin-bottom: 81px;
+  position: relative;
+}
+.background {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.sectionThrue .wrapper {
+  height: 305px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  background-color: #e2f8ff;
+  height: 305px;
+  width: 100%;
+}
+.right {
+  background-color: #f5f9eb;
+  height: 305px;
+  width: 100%;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  margin-right: 50px;
+}
+.card h2 {
+  margin-bottom: 34px;
+  font: normal 600 23px/23px 'Open Sans';
+  color: #515151;
+  text-align: center;
+}
+.card p {
+  margin-bottom: 30px;
+  font: normal 400 17px/27px "Open Sans";
+  color: #515151;
+}
+.btnCard {
+  width: 187px;
+  height: 51px;
+  border-radius: 8px;
+  background-color: #26a6d1;
+  font: normal 600 15px/15px 'Open Sans';
+  color: #ffffff;
+  text-align: center;
+}
+.btnCard:hover {
+  background-color: #2483a3;
+}
+#cardBtnTwo {
+  background-color: #add136;;
+}
+#cardBtnTwo:hover {
+  background-color: #a2c03f;
+}
